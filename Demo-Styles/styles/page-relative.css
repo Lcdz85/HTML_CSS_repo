@@ -1,0 +1,30 @@
+header h2{
+    text-decoration: underline;
+}
+
+#art-px{
+    color: darkgreen;
+}
+#art-px h1{
+    font-size: 35px;
+}
+#art-px p{
+    font-size: 20px;
+}
+
+
+
+#art-em{
+    color: blue;
+    font-size: 0.8em;
+}
+#art-em h1{
+    font-size: 3em;
+}
+
+#art-rem{
+    color: brown;
+}
+#art-rem h1{
+    font-size: 3rem;
+}

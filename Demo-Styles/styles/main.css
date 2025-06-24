@@ -1,0 +1,41 @@
+header h1{
+    color: cadetblue;
+    font-size: 50px;
+}
+h1{
+    color: blue;
+    font-size: 30px;
+}
+p{
+    color: rgb(38, 192, 38);
+}
+#first{
+    color: rgba(8, 108, 101, 0.773);
+}
+.alert{
+    color: red;
+}
+.warning{
+    color: rgb(238, 226, 11);
+}
+.underline{
+    text-decoration: underline;
+}
+section p{
+    color: magenta;
+}
+article>p{
+    color: rgb(90, 20, 220);
+}
+p+p{
+    color: chocolate;
+}
+#art4>h1~p{
+    color: green;
+}
+li[title]{
+    text-decoration: underline;
+}
+li[title="est un fruit"]{
+    color: red;
+}

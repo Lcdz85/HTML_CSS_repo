@@ -1,0 +1,14 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 15px;
+    padding: 1ch;
+}
+
+.border-box{
+    box-sizing: border-box;
+}
+.circle{
+    border-radius: 50%;
+}

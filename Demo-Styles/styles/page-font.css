@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    text-decoration: underline 2px dou blue;
+}
+h1, h2, h3{
+    text-transform: uppercase;
+}
+.gras{
+    font-weight: bold;
+}
+.impact{
+     font-weight: bolder ;  /*ici ça ne change rien, dépend de la police */
+}
+.italic{
+    color: grey;
+    font-style: italic;
+}
+#p1{
+    color: lightseagreen;
+    text-align: center;
+}
+#p2{
+    color: seagreen;
+    text-align: left;
+}
+#p3{
+    color: green;
+    text-align: right;
+}
+#p4{
+    color: darkolivegreen;
+    text-align: justify;
+}

@@ -1,0 +1,141 @@
+nav{
+    background-color: rgb(60, 60, 90);
+    padding: 10px;
+}
+
+nav ul{
+    padding-left: 0;
+}
+
+nav li{
+    display: inline; 
+    /* au début, ne se met pas inline à cause de la div à l'intrieur qui est toujours en block et qui prend donc toute la largeur. jusqu'à ce que la div soit en display: inline-block */
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(37, 37, 58);
+    /* transition: all 0.2s; */
+}
+
+nav a:hover div{
+    background-color: rgb(70, 138, 240);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(69, 235, 226);
+}
+
+nav a:active div{
+    background-color: rgb(70, 138, 240);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(235, 69, 213);
+}
+
+nav a:visited{
+    text-decoration: underline;
+}
+
+nav div{
+    width: 64px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    margin: 1ch;
+}
+
+.box:hover{
+    border-radius: 50%;
+}
+
+.box p{
+    display: none;
+}
+
+.box:hover p{
+    display: block;
+    height: 50px;
+    width: 150px;
+    margin: 75px auto;
+    text-align: center;
+}
+
+.accordeon{
+    background-color: rgb(230, 245, 255);
+    width: 512px;
+}
+
+.accordeon-item{
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.accordeon-item p{
+    background-color: rgb(58, 145, 204);
+    box-shadow: 0px 0px 5px rgb(37, 37, 58);
+    color: rgb(230, 245, 255);
+    text-shadow:  1px 1px 2px rgb(37, 37, 58);
+    max-height: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: all 0.7s;
+}
+
+.accordeon-item:hover p{
+    max-height: max-content;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#section1 article:first-child{
+    background-color: green;
+    color: white;
+}
+
+article p:first-child{
+    color: rgb(255, 0, 149);
+}
+
+article *:first-child{
+    color: blue;
+}
+
+article:last-child{
+    font-style: italic;
+}
+
+table tr:nth-child(even) td:nth-child(odd){
+    background-color: rgb(200, 238, 240);
+}
+table tr:nth-child(odd) td:nth-child(even){
+    background-color: rgb(200, 238, 240);
+}
+
+:target{
+    background-color: rgb(243, 212, 190);
+    color: chocolate;
+}
+
+p:not(p:last-child){
+    color: blueviolet;
+}
+
+#section3 p:first-of-type{
+    font-weight: bolder;
+}
+
+#section3 h1:only-of-type{
+    text-decoration: underline 4px dotted red;
+}
+
+

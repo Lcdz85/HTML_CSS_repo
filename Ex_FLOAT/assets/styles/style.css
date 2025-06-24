@@ -1,0 +1,116 @@
+.gras{
+    font-weight: bold;
+    text-shadow: 0.5ch 0.5ch 0.2ch rgb(216, 185, 242)
+}
+html {
+    background-image: url("/assets/img/moon.jpg");
+    background-size: 100vw;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url(/assets/fonts/Pacifico/Pacifico-Regular.ttf);
+}
+@font-face{
+    font-family: "HennyPenny";
+    src: url(/assets/fonts/Henny_Penny/HennyPenny-Regular.ttf);
+}
+header{
+    border: 1px solid white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 6em;
+}
+h1{
+    font-family: "Pacifico";
+    color: purple;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    font-family: "HennyPenny";
+    /* font-style: italic;
+    text-decoration: overline; */
+    text-align: center;
+    color: indigo;
+    text-shadow: 0ch 0.5ch 0.2ch rgb(216, 185, 242)
+}
+p{
+    text-align: justify;
+}
+#s1{
+    background-color: rgba(137, 43, 226, 0.168);
+    padding: 1ch;
+    margin: 1em;
+    border-radius: 2em;
+    height: 25em;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(216, 185, 242) rgb(17, 5, 29) ;
+}
+.div{
+    background-color: antiquewhite;
+    width: calc((100% - 88px)/ 4);
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    border: 1px solid magenta;
+    border-radius: 1em;
+}
+.clear-float{
+    clear: both;
+}
+
+section[id="s1"]~div:hover{
+     background-color: rgb(122, 106, 84);
+    width: calc((100% - 88px)/ 4);
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    border: 1px solid magenta;
+    border-radius: 1em;
+}
+
+#s2 {
+    height: 45ch;
+    margin: 1em;
+    padding: 1ch;
+    background-color: rgba(4, 93, 111, 0.252);
+    border-radius: 6em;
+}
+.carte{
+    border: 1px solid white;
+    margin: 1ch;
+    height: 20em;
+    width: calc((100% - 12ch)/ 6);
+    border-radius: 2em;
+    float: left;
+
+    text-align: center;
+    color: blue;
+    font-family: "HennyPenny";
+    padding: 1ch;
+
+    background-image: url("/assets/img/moon.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.section{
+    width: 40%;
+    margin: 5%;
+    border: 1em solid purple;
+    height: 20em;
+    background-image: url("/assets/img/lune.jpg");
+    background-size: contain;
+    background-position: center;
+    opacity: 70%;
+    float: left;
+}
+
+*{
+    box-sizing: border-box;
+}
+

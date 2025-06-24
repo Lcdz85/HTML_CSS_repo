@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "IndieFlower";
+    src: url("/assets/Fonts/Indie_Flower/IndieFlower-Regular.ttf");
+}
+main{
+    max-width: 80vw;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.834);
+    padding: 1em;
+}
+html{
+    background-image: url("./assets/img/Moon.jpg");
+    background-size: 10rem;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "IndieFlower";
+    font-weight: bold;
+    color: rgb(19, 42, 169);
+}
+
+#lune{
+
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+    border-radius: 1em 5em 2.5em 3em;
+    box-shadow: 5px 5px 0.8em rgb(26, 34, 54);
+}
+
+.gras{
+    font-weight: bold;
+}
+.nope{
+    text-decoration: line-through;
+}
+#mot-long{
+    color: rgb(42, 89, 165);
+    overflow-wrap: break-word;
+}
+#mot-long2{
+    color: hsl(186, 66%, 34%);
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+#mot-long3{
+    color: rgb(64, 5, 182);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cube{
+    background-color: cornsilk;
+    border: 0.3ch solid blueviolet;
+    width: 10%;
+}
+#cube1{
+    float: right;
+}
+#cube2{
+    float: left;
+}
+#cube3{
+    float: right;
+}
+#cube4{
+    float: left;
+}
+#cube5{
+    clear: both;
+}
+
+.info-text{
+    background-color: antiquewhite;
+    width: calc((100% - 3em) / 3);
+    float: left;
+}
+#div1{
+    margin-left: 0.5em;
+}
+#div2{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#div3{
+    margin-right: 0.5em;
+}
+
+#zone2{
+    background-image: url(/assets/img/Moon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(93, 41, 189, 0.164);
+    height: 30em;
+    margin: 2ch;
+    padding: 1ch;
+    overflow-y: scroll;
+}
+.card{
+    height: 10em;
+    width: 7em;
+    border: 2px solid blue;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 1ch black;
+    margin: 2ch;
+    padding: 1em;
+    float: left;
+
+}
+.clearfloat{
+    clear: both;
+}
+p{
+    text-shadow: 0.2ch 0.2ch 0.2ch cornflowerblue;
+}

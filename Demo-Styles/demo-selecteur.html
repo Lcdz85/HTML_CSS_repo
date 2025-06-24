@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démo2 CSS : sélecteurs avancés</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Démonstration CSS</h1>
+        <h2>Sélecteurs avancés</h2>
+    </header>
+    <main>
+        <section>
+            <p>Voici une liste des différentes combinaisons des sélecteurs</p>
+            <article>
+                <h1>a b</h1>
+                <p>Le sélecteur "b" est dans le sélecteur "a" <br>
+                    ex: section > article > "p"</p>
+            </article>
+            <article>
+                <h1>a>b</h1>
+                <p>Le sélecteur "b" est directement dans le sélecteur "a". <br> 
+                    ex: section > p </p>
+            </article>
+            <article>
+                <h1>a+b</h1>
+                <p>Elément “b” qui est immédiatement précédé par l'élément “a”.</p>
+                <p>ex: uniquement le "p" qui est directement précédé par article </p>
+            </article>
+            <article id="art4">
+                <h1>a~b</h1>
+                <p>Même comportement, mais ne se limite pas au premier élément "b"</p>
+                <p>ex: tous les "p" qui sont précédés par article </p>
+            </article>
+            <article>
+                <h1>a[c]</h1>
+                <p>sélectionne "a" uniquement si il a l'attribut "b" </p>
+                <ul>
+                    <li title="pousse dans un arbre">Pomme</li>
+                    <li title="pousse dans la terre">Carotte</li>
+                    <li>Poire</li>
+                    <li title="est un fruit">Tomate</li>
+                </ul> 
+
+            </article>
+        </section>
+    </main>
+</body>
+</html>

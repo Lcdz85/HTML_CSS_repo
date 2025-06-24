@@ -1,0 +1,20 @@
+article{
+    border: 1px solid black;
+    width: 400px;
+    height: 140px;
+}
+#art-visible{
+    overflow: visible;
+}
+
+#art-hidden{
+    overflow: hidden;
+}
+
+#art-scroll{
+    overflow: scroll;
+}
+
+#art-auto{
+    overflow: auto;
+}

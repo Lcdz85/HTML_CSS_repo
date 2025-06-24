@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les pseud-classes du css</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h1>Démonstration: Les pseudo-classes du CSS</h1>
+    <!-- nav>ul>li*5>a>div{Liens $} Ctrl + espace si il faut activer le lien-->
+    <nav>
+        <ul>
+            <li>
+                <a href="#lien1">
+                    <div>Liens 1</div>
+                </a>
+            </li>
+            <li>
+                <a href="#lien2">
+                    <div>Liens 2</div>
+                </a>
+            </li>
+            <li>
+                <a href="#lien3">
+                    <div>Liens 3</div>
+                </a>
+            </li>
+            <li>
+                <a href="#lien4">
+                    <div>Liens 4</div>
+                </a>
+            </li>
+            <li>
+                <a href="#lien5">
+                    <div>Liens 5</div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="box">
+        <p>BOO!</p>
+    </div>
+    <div class="accordeon">
+        <h2>Accordéon</h2>
+        <div class="accordeon-item">
+            <h1>Item 1</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt voluptate expedita, similique cum delectus vel ab modi dolore voluptates aspernatur iure quisquam, asperiores molestias explicabo minima suscipit reiciendis blanditiis illo.</p>
+        </div>
+        <div class="accordeon-item">
+            <h1>Item 2</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt voluptate expedita, similique cum delectus vel ab modi dolore voluptates aspernatur iure quisquam, asperiores molestias explicabo minima suscipit reiciendis blanditiis illo.</p>
+        </div>
+        <div class="accordeon-item">
+            <h1>Item 3</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt voluptate expedita, similique cum delectus vel ab modi dolore voluptates aspernatur iure quisquam, asperiores molestias explicabo minima suscipit reiciendis blanditiis illo.</p>
+        </div>
+    </div>
+    <section id="section1">
+        <article>
+            <h1>Titre</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nemo dolor, aliquam, ea iusto hic illo, explicabo odio quis nihil eligendi assumenda? Reprehenderit dicta dignissimos odio earum quasi tempore rem? </p> <p>Officiis veniam, facilis quidem quis corrupti corporis, fugiat fugit et ex pariatur quaerat odit molestias provident rerum dolorum, nihil perferendis quibusdam reprehenderit labore cum? Optio impedit saepe voluptatem vero ab.</p>
+            <p>Tempore, sint quisquam maiores maxime consectetur eum similique! Modi illo doloribus cum, ducimus alias veniam quidem. Similique, quas ex hic at odio laboriosam adipisci, quidem quam labore suscipit placeat a.</p>
+        </article>
+        <a href="">en savoir plus</a>
+    </section>
+    <table>
+        <tbody>
+            <tr>
+                <td>Ligne 1 - Cellule 1</td>
+                <td>Ligne 1 - Cellule 2</td>
+                <td>Ligne 1 - Cellule 3</td>
+            </tr>
+            <tr>
+                <td>Ligne 2 - Cellule 1</td>
+                <td>Ligne 2 - Cellule 2</td>
+                <td>Ligne 2 - Cellule 3</td>
+            </tr>
+            <tr>
+                <td>Ligne 3 - Cellule 1</td>
+                <td>Ligne 3 - Cellule 2</td>
+                <td>Ligne 3 - Cellule 3</td>
+            </tr>
+            <tr>
+                <td>Ligne 4 - Cellule 1</td>
+                <td>Ligne 4 - Cellule 2</td>
+                <td>Ligne 4 - Cellule 3</td>
+            </tr>
+            <tr>
+                <td>Ligne 5 - Cellule 1</td>
+                <td>Ligne 5 - Cellule 2</td>
+                <td>Ligne 5 - Cellule 3</td>
+            </tr>
+            <tr>
+                <td>Ligne 6 - Cellule 1</td>
+                <td>Ligne 6 - Cellule 2</td>
+                <td>Ligne 6 - Cellule 3</td>
+            </tr>
+            <tr>
+                <td>Ligne 7 - Cellule 1</td>
+                <td>Ligne 7 - Cellule 2</td>
+                <td>Ligne 7 - Cellule 3</td>
+            </tr>
+            <tr>
+                <td>Ligne 8 - Cellule 1</td>
+                <td>Ligne 8 - Cellule 2</td>
+                <td>Ligne 8 - Cellule 3</td>
+            </tr>
+            <tr>
+                <td>Ligne 9 - Cellule 1</td>
+                <td>Ligne 9 - Cellule 2</td>
+                <td>Ligne 9 - Cellule 3</td>
+            </tr>
+            <tr>
+                <td>Ligne 10 - Cellule 1</td>
+                <td>Ligne 10 - Cellule 2</td>
+                <td>Ligne 10 - Cellule 3</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- section>article*5>h1{Titre $}+p>lorem -->
+    <section>
+        <article id="lien1">
+            <h1>Titre 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi laboriosam ratione obcaecati necessitatibus sequi laborum molestiae delectus dolor sapiente explicabo, tempora porro dolores tempore aspernatur aliquam perferendis labore illo ipsa.</p>
+        </article>
+        <article id="lien2">
+            <h1>Titre 2</h1>
+            <p>Voluptatum aliquid est deserunt, quis, officiis quod quae consequatur explicabo velit quo odit enim, delectus quam sapiente earum facere magnam nesciunt vitae dolorem libero? Illo unde optio voluptatibus tempore sint.</p>
+        </article>
+        <article id="lien3">
+            <h1>Titre 3</h1>
+            <p>Sit odit a fugit magnam eos illum laudantium unde minima. Et blanditiis odit accusantium placeat, rem recusandae tempore facere reprehenderit asperiores odio commodi tempora quod nihil nemo similique distinctio. Iusto!</p>
+        </article>
+        <article id="lien4">
+            <h1>Titre 4</h1>
+            <p>Quasi voluptatum, dignissimos laudantium omnis cum dolores voluptatem hic nobis voluptatibus enim vitae. Laboriosam quo possimus accusantium error, temporibus pariatur mollitia, alias debitis facere eos, aspernatur sint molestias quas autem.</p>
+        </article>
+        <article id="lien5">
+            <h1>Titre 5</h1>
+            <p>Sapiente ex iusto, dolor deleniti voluptatem magni itaque quia quasi magnam voluptate nesciunt cupiditate adipisci laboriosam amet rem vero commodi aspernatur. Aspernatur nemo tenetur quas velit non exercitationem enim officia.</p>
+        </article>
+    </section>
+    <!-- section#section3>article>h1+p*5>lorem -->
+    <section id="section3">
+        <article>
+            <h1>Titre of type</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eum placeat consequatur sunt temporibus autem! Alias molestias beatae fugiat harum asperiores mollitia velit voluptates! Ipsum quo expedita neque eius sapiente.</p>
+            <p>Blanditiis beatae recusandae expedita dolore, aspernatur, veniam fuga nostrum inventore eligendi sed officiis placeat ut. Porro dicta incidunt tenetur eius dolorum magnam est velit nostrum nihil, esse, fuga sunt minima.</p>
+            <p>Exercitationem velit consequuntur quos possimus alias aliquid recusandae, ullam voluptate praesentium temporibus obcaecati modi doloribus deleniti facere ex voluptates quas fugit, quaerat qui molestiae reiciendis? Quaerat nobis laudantium commodi pariatur!</p>
+            <p>Adipisci cum laborum ducimus porro nobis corrupti, magni architecto quis pariatur ratione quibusdam fugiat consequuntur laboriosam ea asperiores quisquam error! Possimus ut ipsam iste nemo. Earum alias dicta temporibus quasi?</p>
+            <p>Fuga error impedit quisquam a tempora nihil ab nobis sapiente. Voluptatem deserunt ullam obcaecati nesciunt ut fugiat aut, at earum id culpa quo, cum odit quisquam reiciendis tempora modi facilis.</p>
+        </article>
+    </section>
+</body>
+</html>
